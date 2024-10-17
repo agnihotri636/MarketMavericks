@@ -1,0 +1,36 @@
+{
+    "name": "tradetrek-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "apexcharts": "^3.54.1",
+        "axios": "^1.7.7",
+        "chart.js": "^4.4.5",
+        "core-js": "^3.6.5",
+        "highcharts": "^11.4.8",
+        "highcharts-vue": "^2.0.1",
+        "vue": "^3.0.0",
+        "vue-chartjs": "^5.3.1",
+        "vue-router": "^4.0.0-0",
+        "vue3-apexcharts": "^1.7.0",
+        "vuex": "^4.0.0-0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.25.8",
+        "@babel/eslint-parser": "^7.25.8",
+        "@vue/cli-plugin-babel": "^5.0.8",
+        "@vue/cli-plugin-eslint": "^5.0.8",
+        "@vue/cli-plugin-router": "^5.0.8",
+        "@vue/cli-plugin-vuex": "^5.0.8",
+        "@vue/cli-service": "^5.0.8",
+        "@vue/compiler-sfc": "^3.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^8.57.1",
+        "eslint-plugin-vue": "^7.20.0"
+    }
+}
