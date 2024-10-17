@@ -29,51 +29,11 @@ To set up **MarketMavericks** on your local machine, follow these steps:
 - **Git**
 
 ### Installation
+#will update 
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/agnihotri636/MarketMavericks.git
-    cd MarketMavericks
-    ```
-
-2. **Set up a virtual environment** (optional but recommended):
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-
-3. **Install the required packages**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Configure the database**:
-    - Create a MySQL database and update the connection details in the config file (`config.py`).
-    - Run migrations to set up the necessary tables.
-
-5. **Run the application**:
-    ```bash
-    python app.py
-    ```
-
-6. **Access the application**:
-    - Open your browser and navigate to `http://127.0.0.1:5000`.
 
 ### Usage
 
 - Upload stock market data or connect to an external API to fetch real-time data.
 - Run predictive models and view the analysis on the dashboard.
 - Explore different market trends through interactive charts and reports.
-
-## Project Structure
-
-```bash
-MarketMavericks/
-├── app.py                # Main application entry point
-├── data/                 # Data folder for storing datasets
-├── models/               # Machine learning models
-├── static/               # Static files (CSS, JS, images)
-├── templates/            # HTML templates for the web interface
-├── config.py             # Configuration file for database and other settings
-├── README.md             # Project description and setup
-└── requirements.txt      # Python dependencies
