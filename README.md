@@ -66,14 +66,3 @@ To set up **MarketMavericks** on your local machine, follow these steps:
 - Explore different market trends through interactive charts and reports.
 
 ## Project Structure
-
-```bash
-MarketMavericks/
-├── app.py                # Main application entry point
-├── data/                 # Data folder for storing datasets
-├── models/               # Machine learning models
-├── static/               # Static files (CSS, JS, images)
-├── templates/            # HTML templates for the web interface
-├── config.py             # Configuration file for database and other settings
-├── README.md             # Project description and setup
-└── requirements.txt      # Python dependencies
